@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper{
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+    overflow-y: auto;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 33%, #ffffff 66%, #ffffff 100%);
+}
+
+.navcontainer{
+    width: 100%;
+    height: 80px;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 100%;
+}
+.navcontainer ul{
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color:azure;
+}
+a{
+    text-decoration: none;
+    color:beige;
+}
+.navitems{
+    display: flex;
+    gap: 40px;
+
+}
+.mainRecipe{
+    margin: auto;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    box-shadow: 0px 0px 30px black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+#rightbox img{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    transition: all 1s linear 0s;
+}
+#rightbox img:hover{
+    transform: scale(1.1);
+}
+#leftbox{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+#leftbox h2{
+    font-size: 2.2rem;
+}
+h3{
+    font-size: 1.6rem;
+}
+.ingrediants{
+    font-size: 1.2rem;
+}
+.recipebox{
+    font-size: 1.1rem;
+}
+#footerBox{
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 40px;
+}
+#footerBox p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 8px;
+}
